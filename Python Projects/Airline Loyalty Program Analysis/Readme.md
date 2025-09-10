@@ -5,9 +5,9 @@ This project analyzes an airline’s loyalty program data to understand customer
 
 The project uses:
 
-SQL → for data extraction and joining tables
+SQL for data extraction and joining tables
 
-Python (Pandas, Matplotlib, Seaborn) → for data cleaning, transformation, and visualization
+Python (Pandas, Matplotlib, Seaborn) for data cleaning, transformation, and visualization
 
 ## Objectives
 
@@ -65,20 +65,20 @@ Relationship between cancellations and points redeemed
 
 ## Key Insights
 
-Peak Travel → Highest flight activity occurs in June, July, August, December, and May.
+Peak Travel - Highest flight activity occurs in June, July, August, December, and May.
 
-Revenue Contribution → Star tier generates the highest revenue, followed by Nova and Aurora.
+Revenue Contribution - Star tier generates the highest revenue, followed by Nova and Aurora.
 
-Flight Frequency → Customers across all tiers take ~1.3 flights on average.
+Flight Frequency - Customers across all tiers take ~1.3 flights on average.
 
-Cancellations → Aurora tier shows slightly higher cancellations, though differences are small.
+Cancellations - Aurora tier shows slightly higher cancellations, though differences are small.
 
-Points Redemption → Active customers redeem more points per person, while cancelled customers redeem more overall.
+Points Redemption - Active customers redeem more points per person, while cancelled customers redeem more overall.
 
-Business Recommendation → Focus on retaining premium (Star) customers, as they are the biggest revenue drivers.
+Business Recommendation - Focus on retaining premium (Star) customers, as they are the biggest revenue drivers.
 
 ## Tools & Libraries
 
-SQL (MySQL) → Data connection & queries
+SQL (MySQL) - Data connection & queries
 
-Python → Pandas, Matplotlib, Seaborn
+Python - Pandas, Matplotlib, Seaborn
