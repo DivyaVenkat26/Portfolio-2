@@ -1,4 +1,4 @@
-#Airline Loyalty Program Analysis
+# Airline Loyalty Program Analysis
 ## Introduction
 
 This project analyzes an airline’s loyalty program data to understand customer behavior, revenue contribution, and retention opportunities. By studying customer demographics, loyalty tiers, booking activity, and revenue patterns, the analysis helps airlines strengthen engagement and improve loyalty strategies.
@@ -9,7 +9,7 @@ SQL → for data extraction and joining tables
 
 Python (Pandas, Matplotlib, Seaborn) → for data cleaning, transformation, and visualization
 
-##Objectives
+## Objectives
 
 Connect SQL database and import airline loyalty data into Python
 
@@ -21,21 +21,21 @@ Visualize revenue contribution and customer insights
 
 Identify high-value segments and suggest strategies for retention
 
-##Methodology
+## Methodology
 
-##Data Collection
+## Data Collection
 
 Extracted data from a MySQL database using mysql.connector
 
 Queried tables: calendar, customer_flight_activity, customer_loyalty_history
 
-##Data Integration
+## Data Integration
 
 Joined multiple SQL tables in Python using pd.read_sql()
 
 Built a comprehensive dataset combining customer activity, loyalty, and calendar data
 
-##Data Cleaning
+## Data Cleaning
 
 Checked for consistency
 
@@ -43,16 +43,15 @@ Handled missing values and duplicates
 
 Removed unnecessary spaces from column names
 
-##Data Transformation
+## Data Transformation
 
 Created a calculated column:
 
 Total Revenue = Miles Redeemed × Cost Per Mile
 
-
 Converted data types using astype()
 
-##Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Customer distribution across loyalty tiers
 
